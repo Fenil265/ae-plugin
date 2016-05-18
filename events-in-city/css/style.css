@@ -1,0 +1,215 @@
+/* City plugin */
+
+.ae-city-autoc.ui-autocomplete {
+    position: absolute;
+    padding: 2px;
+    max-height: 100px;
+    max-width: 395px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ae-city-autoc li {
+    background-color: white;
+    padding: 6px;
+    border: 4px;
+    font-size: 14px;
+    display: block;
+}
+
+.ae-city-autoc.ui-state-hover,
+.ae-city-autoc.ui-widget-content .ui-state-hover,
+.ae-city-autoc.ui-widget-header .ui-state-hover,
+.ae-city-autoc.ui-state-focus,
+.ae-city-autoc.ui-widget-content .ui-state-focus,
+.ae-city-autoc.ui-widget-header .ui-state-focus {
+    background-color: #D8D8D8;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Organizer Plugin */
+
+.ae-org-autoc.ui-autocomplete {
+    position: absolute;
+    padding: 2px;
+    max-height: 100px;
+    max-width: 395px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ae-org-autoc li {
+    background-color: white;
+    padding: 4px;
+    border: 4px;
+    font-size: 14px;
+    display: block;
+}
+
+.ae-org-autoc.ui-state-hover,
+.ae-org-autoc.ui-widget-content .ui-state-hover,
+.ae-org-autoc.ui-widget-header .ui-state-hover,
+.ae-org-autoc.ui-state-focus,
+.ae-org-autoc.ui-widget-content .ui-state-focus,
+.ae-org-autoc.ui-widget-header .ui-state-focus {
+    background-color: #D8D8D8;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Shortcode Generator */
+
+.ae-scode-autoc.ui-autocomplete {
+    position: absolute;
+    padding: 2px;
+    max-height: 100px;
+    max-width: 250px;
+    background: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ae-scode-autoc li {
+    background-color: white;
+    padding: 4px;
+    border: 4px;
+    font-size: 14px;
+    display: block;
+}
+
+.ae-scode-autoc.ui-state-hover,
+.ae-scode-autoc.ui-widget-content .ui-state-hover,
+.ae-scode-autoc.ui-widget-header .ui-state-hover,
+.ae-scode-autoc.ui-state-focus,
+.ae-scode-autoc.ui-widget-content .ui-state-focus,
+.ae-scode-autoc.ui-widget-header .ui-state-focus{
+    background-color: #D8D8D8;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+}
+
+.footer-hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 2px dashed black;
+}
+
+.footer-span {
+    margin-left: -110px;
+}
+
+.scode_textarea {
+    overflow: hidden;
+    text-align: center;
+    font-style: italic;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 565px;
+    height: 50px;
+    line-height: 45px;
+    font-size: 15px;
+    color: black;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 2px 4px #888;
+    border-radius: 0;
+}
+
+.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+    margin: -26px -143px -4px;
+    float: right;
+}
+
+.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518;
+}
+
+.social-network a.icoInstagram:hover {
+    background-color: #800000;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoInstagram:hover i,
+{
+    color: #fff;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.social-circle li a {
+    background-color: #D3D3D3;
+}
